@@ -1,0 +1,68 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f1f1f; /* Fundo cinza escuro */
+    color: #ffffff; /* Letras brancas */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+/* Estilos dos tópicos */
+.topic {
+    margin: 0 auto 20px auto; /* Centraliza os tópicos */
+    width: 50%; /* Define a largura dos tópicos */
+    padding: 20px;
+    background-color: #d6d6d6; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.719);
+    transition: all 0.3s ease;
+}
+
+.topic:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.topic-title {
+    cursor: pointer;
+    color: #f04cff; /* Rosa bem clarinho */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.topic-title:hover {
+    color: #f47fff; /* Rosa mais escuro ao passar o mouse */
+}
+
+.topic-description {
+    font-size: 1.2rem;
+    color: #494949; /* Cinza claro para descrição */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Adicionando uma classe para o rosa bem clarinho */
+.pink-text {
+    color: #fd9af8;
+}
+
+/* Estilos da imagem */
+.image-container {
+    margin: 0 auto; /* Centraliza a imagem */
+    width: 50%; /* Define a largura da imagem */
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Define a largura da imagem */
+}
